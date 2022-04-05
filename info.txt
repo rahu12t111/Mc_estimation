@@ -2,7 +2,7 @@ DEPENDENCIES:
   scipy, pandas, matplotlib, numpy, math
 
 RUN:
-  To run Mc analysis for a catalog => RUN : "python3 Mc_final.py"
+  To run Mc analysis for a catalog => RUN : "python3 Mc_analysis.py"
 
 INPUT:
   Catalog Name = file name with extension (catalog should be a "|" seperated CSV file, with one column named "magnitude")
