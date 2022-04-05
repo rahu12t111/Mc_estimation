@@ -20,7 +20,10 @@ file= input("Enter name of the file containing data : ")
 country_name= input("Enter prefix to save figures : ")
 
 #Extracting data from a csv file into a pandas dataframe.
-data = pd.read_csv(file, sep='|')
+try:
+	data = pd.read_csv(file, sep='|')
+except:
+	data = pd.read_csv(file)
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
