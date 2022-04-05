@@ -5,7 +5,7 @@ RUN:
   To run Mc analysis for a catalog => RUN : "python3 Mc_analysis.py"
 
 INPUT:
-  Catalog Name = file name with extension (catalog should be a "|" seperated CSV file, with one column named "magnitude")
+  Catalog Name = file name with extension (catalog should be a "|" or "," seperated CSV file, with one column named "magnitude")
   prefix = prefix to save the plots
   bin_size = floating number between (0 to 10)
   methods = one string value from ['mbass','maxc','gft','emr','mbs','clauset','all']
