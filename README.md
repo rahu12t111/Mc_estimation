@@ -2,6 +2,7 @@
 (Magnitude of Completeness analysis for Seismic Catalogs)
 
 What this repository offers:
+
 -> Compute Magnitude of Completeness using 6 peer reviewed methods.
 1) MAXC
 2) MBASS
