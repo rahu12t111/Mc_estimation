@@ -9,7 +9,7 @@ What this repository offers:
 3) MBS
 4) GFT
 5) EMR
-6) Clauset (KS statistics based method to validate GR law)
+6) Clauset (KS statistics based method to validate if data follow GR law)
 
 -> Provide analysis and fits for each method
 
